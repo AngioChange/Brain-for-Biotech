@@ -1,0 +1,22 @@
+name: BfBio
+channels:
+  - anaconda
+  - defaults
+  - main
+  - conda-forge
+dependencies:
+  - python
+  - biopython
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - networkx
+  - jupyterlab
+  - pyyaml
+  - tqdm
+  - pyfiglet
+  - ipykernel
+
