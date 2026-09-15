@@ -3,7 +3,9 @@ Brain-for-Biotech (BfBio) is a graph-based tool built for gene prioritization. B
 # Installation
 In order to get BfBio, you will need to clone this repository:
 
-`print("Hello world!") \n`
-`cd heehee`
+```
+print("Hello World")
+print("Mister Worldwide")
+```
 
 
