@@ -1,1 +1,1 @@
-This is the folder where the integrated graphs (annotation-based + omics) generated with the proper notebook should be stored.
+This is the folder where the integrated graphs (annotation-based + omics) generated with the proper notebook should be stored. The data can be downloaded from https://drive.google.com/drive/folders/1TIOM81F_gfGjljrpnIfiOmIRMJsy5X-a?usp=sharing
