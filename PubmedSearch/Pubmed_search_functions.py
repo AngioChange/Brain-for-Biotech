@@ -199,6 +199,7 @@ def split_dataframe(dataframe):
     #Saving the results
     for i in range(0, len(dataframe)):
         df = df_split[i]
+        df = pd.DataFrame(df, columns = ["genes", "aliases"])
         df.to_csv("{}/parts/part_{}.csv".format(directory, (i + 1)), sep = ",", index = False)
         
     files = glob.glob("{}/parts/*.csv".format(directory))

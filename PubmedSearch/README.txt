@@ -1,7 +1,7 @@
 The Pubmed_search_Leo_Bettoni.py script allows you to look for publications in the PubMed database. It is based on a prompt system as the script asks you for several information, including :
 
     - Would you like to resume the previous search? (In case the connexion to the PubMed servers was lost)
-    --> This is useful in case the connexion to the PubMed servers is lost during the search, which can unfortunately happen during long search
+    --> This is useful in case the connexion to the PubMed servers is lost during the search, which can unfortunately happen during long searches
 
     - Do you want to look for GENERAL papers?
     --> If yes, the algorithm will look for publications simply mentioning the query gene's name in its title/abstract
@@ -13,4 +13,12 @@ The Pubmed_search_Leo_Bettoni.py script allows you to look for publications in t
     --> If yes, the algorithm will also consider for each query gene its known aliases (taken from the GeneCards database) to ensure making a thorough search, which however increases the computational runtime
     --> If yes and your input file doesn't list the aliases of the query genes, they will automatically be matched using the Aliases.csv reference file
 
-    - 
+    - What's your email address?
+    --> It is mandatory to provide this information to PubMed so the staff can track who is using the server
+
+
+
+To run the algorithm, use the following command line in the folder containing the main script, the aliases reference file and your input file:
+
+python Pubmed_search_Leo_Bettoni.py <YOUR_INPUT_FILE.csv>
+
