@@ -1,0 +1,1 @@
+This is the folder where the original raw annotation-based data and the related networks should be stored. The data can be downloaded from https://drive.google.com/drive/folders/1PB8DfmfH7_9f__FYdnxSUdGfJOTK7Jgm?usp=sharing
